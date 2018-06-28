@@ -1,0 +1,221 @@
+[debug] [2018-05-04T21:04:16.373Z] ----------------------------------------------------------------------
+[debug] [2018-05-04T21:04:16.379Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-05-04T21:04:16.380Z] CLI Version:   3.12.0
+[debug] [2018-05-04T21:04:16.380Z] Platform:      win32
+[debug] [2018-05-04T21:04:16.380Z] Node Version:  v6.11.3
+[debug] [2018-05-04T21:04:16.381Z] Time:          Fri May 04 2018 22:04:16 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:04:16.381Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-04T21:04:16.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-04T21:04:16.404Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-04T21:04:23.968Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-04T21:04:23.969Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/4Q2ka9lbkX9q7WksZRsrDBVDk6C4bczjAWbSyyFZRt8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri May 04 2018 22:04:23 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:04:24.712Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T21:04:24.790Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri May 04 2018 22:04:24 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:04:26.341Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-05-04T21:04:55.765Z] Error: ENOENT: no such file or directory, open 'C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz\index.html\404.html'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.fs.writeFileSync (fs.js:1348:33)
+    at Object.createFileSync (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:183:6)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:203:12
+    at tryCatch (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:525:12)
+    at invokeCallback (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:538:13)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:606:14
+    at flush (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:2415:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-04T21:05:13.760Z] ----------------------------------------------------------------------
+[debug] [2018-05-04T21:05:13.765Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-05-04T21:05:13.766Z] CLI Version:   3.12.0
+[debug] [2018-05-04T21:05:13.766Z] Platform:      win32
+[debug] [2018-05-04T21:05:13.766Z] Node Version:  v6.11.3
+[debug] [2018-05-04T21:05:13.767Z] Time:          Fri May 04 2018 22:05:13 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:05:13.767Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-04T21:05:13.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-04T21:05:13.786Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-04T21:05:20.426Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri May 04 2018 22:05:20 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:05:21.711Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-05-04T21:05:38.764Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Fri May 04 2018 22:05:38 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:05:39.458Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T21:05:39.468Z] Error: ENOENT: no such file or directory, open 'C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz\index.html\index.html'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.fs.writeFileSync (fs.js:1348:33)
+    at Object.createFileSync (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:183:6)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:203:12
+    at tryCatch (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:525:12)
+    at invokeCallback (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:538:13)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:606:14
+    at flush (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:2415:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-04T21:07:33.264Z] ----------------------------------------------------------------------
+[debug] [2018-05-04T21:07:33.270Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-05-04T21:07:33.271Z] CLI Version:   3.12.0
+[debug] [2018-05-04T21:07:33.271Z] Platform:      win32
+[debug] [2018-05-04T21:07:33.271Z] Node Version:  v6.11.3
+[debug] [2018-05-04T21:07:33.272Z] Time:          Fri May 04 2018 22:07:33 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:07:33.272Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-04T21:07:33.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-04T21:07:33.292Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-04T21:07:38.705Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri May 04 2018 22:07:38 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:07:40.031Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-05-04T21:08:08.444Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Fri May 04 2018 22:08:08 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:08:09.077Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T21:08:09.093Z] Error: ENOENT: no such file or directory, open 'C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz\index.html\index.html'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.fs.writeFileSync (fs.js:1348:33)
+    at Object.createFileSync (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:183:6)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:203:12
+    at tryCatch (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:525:12)
+    at invokeCallback (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:538:13)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:606:14
+    at flush (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:2415:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-04T21:08:34.180Z] ----------------------------------------------------------------------
+[debug] [2018-05-04T21:08:34.185Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-05-04T21:08:34.186Z] CLI Version:   3.12.0
+[debug] [2018-05-04T21:08:34.186Z] Platform:      win32
+[debug] [2018-05-04T21:08:34.186Z] Node Version:  v6.11.3
+[debug] [2018-05-04T21:08:34.187Z] Time:          Fri May 04 2018 22:08:34 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:08:34.187Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-04T21:08:34.207Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-04T21:08:34.208Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-04T21:08:38.570Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri May 04 2018 22:08:38 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:08:40.189Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-05-04T21:08:56.945Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Fri May 04 2018 22:08:56 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-05-04T21:08:57.606Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-04T21:08:57.618Z] Error: ENOENT: no such file or directory, open 'C:\Users\EMMANUEL\Desktop\Projects_Web\GridBiz\index.html\index.html'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.fs.writeFileSync (fs.js:1348:33)
+    at Object.createFileSync (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:183:6)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:203:12
+    at tryCatch (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:525:12)
+    at invokeCallback (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:538:13)
+    at C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:606:14
+    at flush (C:\Users\EMMANUEL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:2415:5)
+[error] 
+[error] Error: An unexpected error has occurred.
